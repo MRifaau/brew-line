@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brewline Cafe | Freshly Roasted Coffee & Delicious Pastries</title>
+    <!-- Links to the external CSS file for consistent styling -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include jQuery Library for easy DOM manipulation -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <!-- Header/Navigation Bar (Consistent across all pages) -->
+    <header>
+        <div class="logo">
+            <h1>Brewline</h1>
+            <p>Cafe & Roasters</p>
+        </div>
+        <nav>
+            <ul>
+                <!-- 'Home' link is active on this page -->
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="locations.html">Locations</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="careers.html">Careers</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="case_study.html" class="cta-link">Case Study</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 1. Hero Section (Uses defined .hero-section and .hero-image styles) -->
+        <section class="hero-section">
+            <div class="hero-text">
+                <!-- Use headings appropriately (h2 for section title) -->
+                <h2>Your Daily Dose of Crafted Perfection.</h2>
+                <p>Welcome to Brewline, where every bean is ethically sourced, expertly roasted, and brewed with passion. Start your morning with our rich, signature dark roast or treat yourself to a freshly baked pastry.</p>
+                <!-- Image formatting and positioning is handled by .hero-image class -->
+                <div style="margin-top: 1.5rem;">
+                    <a href="menu.html" class="btn primary-btn">Explore Our Menu</a>
+                    <a href="locations.html" class="btn secondary-btn" style="margin-left: 1rem;">Find a Cafe Near You</a>
+                </div>
+            </div>
+            <!-- Placeholder image for the hero section, given an ID for JavaScript targeting -->
+            <img id="heroImage" src="img/img1.jpg" alt="a cup of coffee" class="hero-image" style="cursor: pointer;">
+        </section>
+
+        <!-- 2. Feature Grid (Highlights key offerings) -->
+        <h3 class="section-heading">Why Choose Brewline?</h3>
+        <div class="feature-grid">
+            
+            <div class="feature-card">
+                <!-- Use a suitable icon (e.g., Unicode coffee cup) -->
+                <span class="icon" role="img" aria-label="Coffee Bean">&#9749;</span>
+                <h4>Artisan Roasts</h4>
+                <p>We ethically source beans from the world's finest regions and roast them daily in small batches for peak flavor.</p>
+            </div>
+            
+            <div class="feature-card">
+                <span class="icon" role="img" aria-label="Bakery Icon">&#127827;</span>
+                <h4>Fresh Baking</h4>
+                <p>Pair your perfect cup with our selection of scratch-made croissants, muffins, and seasonal treats baked every morning.</p>
+            </div>
+            
+            <div class="feature-card">
+                <span class="icon" role="img" aria-label="Location Pin">&#128205;</span>
+                <h4>Community Hub</h4>
+                <p>Our cafes are designed to be comfortable and welcoming spaces, perfect for work, relaxation, or meeting friends.</p>
+            </div>
+            
+        </div>
+
+        <!-- 3. Call to Action Banner (CTA) -->
+        <section class="cta-banner">
+            <!-- Use headings appropriately (h2 for major content) -->
+            <h2>Ready for Your Best Coffee Experience?</h2>
+            <p>Join our loyalty program today and get 10% off your first online order!</p>
+            <a href="contact.html" class="btn secondary-btn">Sign Up Now</a>
+        </section>
+
+        <!-- 4. External/Quick Links (Requirement: external link styles used) -->
+        <section class="external-links">
+            <h3 class="section-heading">Stay Connected</h3>
+            <ul>
+                <li><a href="#">Follow us on Instagram</a></li>
+                <li><a href="#">Read our Latest Blog Post</a></li>
+                <li><a href="#">View Seasonal Specials</a></li>
+            </ul>
+        </section>
+        
+    </main>
+
+    <!-- Footer (Consistent across all pages) -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>Brewline Cafe</h3>
+                <p>&copy; 2025 Brewline Roasters. All rights reserved.</p>
+            </div>
+            <div class="footer-nav">
+                <p><a href="contact.html">Get in Touch</a> | <a href="careers.html">Join Our Team</a></p>
+            </div>
+    </footer>
+    
+    <!-- Link to the separate JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brewline Cafe - Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Brewline</h1>
+            <p>Cafe & Roasters</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="locations.html">Locations</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="careers.html">Careers</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="case_study.html" class="cta-link">Case Study</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2 class="section-heading">Contact Brewline</h2>
+        <form id="contact-form">
+            <h3>Send us a Message</h3>
+            
+            <div class="form-group">
+                <label for="name">Full Name*</label>
+                <input type="text" id="name" name="name" required>
+                <div id="name-error" class="error-message">Name is required.</div>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email Address*</label>
+                <input type="email" id="email" name="email" required>
+                <div id="email-error" class="error-message">Please enter a valid email address.</div>
+            </div>
+            
+            <div class="form-group">
+                <label for="subject">Subject*</label>
+                <select id="subject" name="subject" required>
+                    <option value="">-- Select a Subject --</option>
+                    <option value="General Inquiry">General Inquiry</option>
+                    <option value="Catering">Catering / Large Order</option>
+                    <option value="Feedback">Feedback</option>
+                    <option value="Careers">Careers (See Careers Page)</option>
+                </select>
+                <div id="subject-error" class="error-message">Please select a subject.</div>
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Message*</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <div id="message-error" class="error-message">Message is required.</div>
+            </div>
+            
+            <button type="submit" class="btn primary-btn" style="width: 100%;">Send Message</button>
+        </form>
+
+        <section class="cta-banner" style="margin-top: 3rem;">
+            <h2>Other Ways to Connect</h2>
+            <p>Call us at: (960) 123-4567x</p>
+            <p>Customer Support Hours: 9am - 5pm</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>Brewline Cafe</h3>
+                <p>&copy; 2025 Brewline Roasters. All rights reserved.</p>
+            </div>
+            <div class="footer-nav">
+                <p><a href="contact.html">Get in Touch</a> | <a href="careers.html">Join Our Team</a></p>
+            </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
